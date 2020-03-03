@@ -23,3 +23,19 @@ body {
 .quotes-container {}
 
 .features-container{}
+
+/*Jumbotron*/ 
+.jumbotron {
+    background-color:transparent;
+}
+.jumbotron-header {
+    color:white;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.jumbotron small{
+    font-size:60;
+    font-style:italic;
+    color:bisque;
+    
+}
