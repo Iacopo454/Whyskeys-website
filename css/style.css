@@ -58,6 +58,11 @@ body {
     font-weight:bold;
     margin-bottom:30px;
 }
+.jumbotron-header :hover {
+    color:#6812f5;
+}
+
+
 .jumbotron small{
     font-size:60;
     font-style:italic;
