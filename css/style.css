@@ -41,14 +41,47 @@ body {
 }
 .lead{ color: #e83f3f;
 }
-*/ Block dividers */
+/* Navbar */
+
+ .navalert-container{
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding-left: 0;
+     padding-right: 0; 
+     z-index: 1;
+ }
+ .navbar { 
+     margin-bottom: 0;
+     border: 0;
+     width: 100%;
+     background-color: rgba(0,0,0,0.25);
+
+ }
+ .navbar .navbar-toggler { 
+     border:0;
+ }
+
+ .navbar .navbar nav a{ 
+     font-weight:bold;
+ }
+
+ 
+
+
+
+
+
+
+
+ /* Block dividers */ 
 
 .block-divider { 
     width: 75px;
     height: 5px;
     background-color: orange;
     border: 0;
-    }
+
 .block-divider--orange{ color: #f05f40;
 
 }
