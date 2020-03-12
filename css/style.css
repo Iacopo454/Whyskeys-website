@@ -39,3 +39,19 @@ body {
     color:bisque;
     
 }
+.lead{ color: #e83f3f;
+}
+*/ Block dividers */
+
+.block-divider { 
+    width: 75px;
+    height: 5px;
+    background-color: orange;
+    border: 0;
+    }
+.block-divider--orange{ color: #f05f40;
+
+}
+.block-divider--shot{
+    width:35px;
+}
