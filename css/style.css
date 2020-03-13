@@ -1,6 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.container-wrapper{ }
+
+.container-wrapper--red{
+    background-color: red;
+    color:white;
+}
+
 
 .callout-container { 
     height: 100vh; 
@@ -19,7 +26,7 @@ body {
 
 
 }
-.alert-container {
+.alert-container .col-12 {
      
     padding-left: 0;
     padding-right: 0;
@@ -53,14 +60,16 @@ body {
 .jumbotron {
     background-color:transparent;
 }
-.jumbotron-header {
+.jumbotron-header  {
     color:white;
     font-weight:bold;
     margin-bottom:30px;
 }
-.jumbotron-header :hover {
-    color:#6812f5;
+.jumbotron-header:hover {
+    color: purple;
 }
+    
+
 
 
 .jumbotron small{
@@ -70,6 +79,9 @@ body {
     
 } 
 .lead{ color:#d4caca;
+}
+.lead:hover { 
+    color: yellow;
 }
 /* Navbar */
 
@@ -91,20 +103,19 @@ body {
  .navbar .navbar-toggler { 
      border:0;
  }
+ .navbar brand {
+     font-weight: bold;
+ }
 
- .navbar .navbar nav a{ 
+ .navbar .navbar nav a { 
      font-weight:bold;
  }
 
  
 
 
-
-
-
-
-
  /* Block dividers */ 
+
 .block-divider {
     width: 75px;
     height: 5px;
@@ -123,7 +134,12 @@ body {
 .block-divider--short {
     width: 35px;
 }
+/* Content containers */
+.content-container { 
+    padding-top:75px;
+    padding-bottom:75px;
 
+}
 
 /* Buttons */
 
@@ -147,4 +163,39 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+/* Pages */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .pages-header {
+    margin-bottom:25px;
+    
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height:45px;
+}
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
