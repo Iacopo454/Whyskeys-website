@@ -65,24 +65,26 @@ body {
     font-weight:bold;
     margin-bottom:30px;
 }
-.jumbotron-header:hover {
-    color: purple;
-}
+.jumbotron-header:hover{
+  color:#3d4ec3;
     
 
-
+}
 
 .jumbotron small{
     font-size:60;
     font-style:italic;
-    color:bisque;
+    color:#eecd2a;
     
 } 
-.lead{ color:#d4caca;
+.lead{ 
+color:#e63144;
 }
 .lead:hover { 
-    color: yellow;
+    color: #e4dd25;
 }
+
+
 /* Navbar */
 
  .navalert-container{
